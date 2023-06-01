@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="/assets/fontawesome6/css/all.min.css">
     <title>ارسال اعلان</title>
 </head>
+<style>
+    body {
+        margin: 0;
+        font-family: "BYekan" !important;
+        background: url(../assets/images/laptop.jpeg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+</style>
 
 <body class="row m-0 p-0 justify-content-center align-items-center">
     @if ($errors->any())
@@ -25,6 +36,8 @@
         <input type="number" name="user_code" placeholder="User Code" class="form-control my-1">
         <button class="btn btn-primary my-1" type="submit">submit</button>
     </form>
+    <h5 class="text-center text-primary">Enter your personal code</h5>
+
 </body>
 
 </html>
